@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.501 sec <<< FAILURE!
+initializeJSEngine(y.JsInteractionTest)  Time elapsed: 0.102 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "javax.script.ScriptEngine.eval(String)" because "this.eng" is null
+	at net.java.html.boot.script.ScriptPresenter.<init>(ScriptPresenter.java:84)
+	at net.java.html.boot.script.Scripts.createPresenter(Scripts.java:101)
+	at y.JsInteractionTest.initializeJSEngine(JsInteractionTest.java:20)
+
